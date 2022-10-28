@@ -3,7 +3,7 @@ import { Container, Heading } from '@chakra-ui/react'
 import MyFooter from '../components/MyFooter'
 import MyHeader from '../components/MyHeader'
 
-export default function Home() {
+export default function Services() {
   return (
     <Container maxW='75%' p={4}>
       <Head>
@@ -15,7 +15,7 @@ export default function Home() {
       <main>
         <MyHeader/>
         <Heading mt={8} as='h1' size='xl' noOfLines={1}>
-            Home
+            Services
         </Heading>
       </main>
 
