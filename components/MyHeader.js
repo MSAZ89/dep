@@ -1,5 +1,5 @@
 import NextLink from "next/link"
-import { Heading, Stack, Button } from '@chakra-ui/react'
+import { Stack, Button } from '@chakra-ui/react'
 
 export default function MyHeader(props) {
 
