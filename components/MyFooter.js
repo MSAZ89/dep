@@ -1,9 +1,7 @@
-import { Box } from '@chakra-ui/react'
+import { Box, Center } from '@chakra-ui/react'
 
 export default function MyFooter (){
     return (
-        <footer style={{marginTop: 32}}>
-            <Box>Copyright 2022 Company Name</Box>
-        </footer>
+            <Center><Box mt={4} py={4}><footer>Copyright 2022 Company Name</footer></Box></Center>
     )
 }

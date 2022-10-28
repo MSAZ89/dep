@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Container, Heading, Box } from '@chakra-ui/react'
+import { Container, Heading, Box, Center } from '@chakra-ui/react'
 import MyFooter from '../components/MyFooter'
 import MyHeader from '../components/MyHeader'
 
@@ -15,11 +15,14 @@ export default function Contact() {
       <main>
         <MyHeader/>
         <Box maxW="full" my={8}><img src="t1.jpg"/></Box>
-        <Heading mt={8} as='h1' size='xl' noOfLines={1}>
-            Contact
-        </Heading>
-      </main>
+        <Center>
+          <Heading my={8} as='h1' size='xl' noOfLines={1}>
+              Contact
+          </Heading>
+        </Center>
 
+      </main>
+      
       <MyFooter/>
     
     </Container>

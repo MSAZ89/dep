@@ -3,7 +3,8 @@ import { Container, Heading, Box } from '@chakra-ui/react'
 import MyFooter from '../components/MyFooter'
 import MyHeader from '../components/MyHeader'
 import HomeCta from '../components/Home/HomeCta'
-
+import ArticleCard
+ from '../components/ArticleCard'
 export default function Home() {
   return (
     <Container maxW={{sm: 'full', xl: '60%'}} p={4}  mt={8}>
@@ -16,6 +17,30 @@ export default function Home() {
       <main>
         <MyHeader/>
         <HomeCta/>
+        <Box maxW="full" mt={8}>
+          <ArticleCard 
+            title={'17 of the Best Examples of Beautiful Blog Design'} 
+            date={'Oct 10, 2022'} 
+            link={'design'}
+            content={'Malesuada nunc vel risus commodo viverra maecenas. Ipsum suspendisse ultrices gravida dictum fusce ut placerat.'}
+            />
+        </Box>
+        <Box maxW="full" mt={8}>
+          <ArticleCard 
+            title={'How to get the most out of your website accessibility'} 
+            date={'Oct 11, 2022'} 
+            link={'ux, ui'}
+            content={'Et tortor consequat id porta nibh. Eu feugiat pretium nibh ipsum consequat nisl.'}
+            />
+        </Box>
+        <Box maxW="full" mt={8}>
+          <ArticleCard 
+            title={'What is a headless CMS?'} 
+            date={'Oct 12, 2022'} 
+            link={'backend'}
+            content={'Mi sit amet mauris commodo. Ultrices sagittis orci a scelerisque purus semper eget duis at. Rutrum tellus pellentesque eu tincidunt.'}
+            />
+        </Box>
       </main>
 
       <MyFooter/>

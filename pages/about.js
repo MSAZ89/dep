@@ -3,6 +3,7 @@ import { Container, Heading, Box } from '@chakra-ui/react'
 import MyFooter from '../components/MyFooter'
 import MyHeader from '../components/MyHeader'
 import Features from '../components/About/Features'
+import ArticleCard from '../components/ArticleCard'
 
 export default function About() {
   return (
@@ -16,7 +17,7 @@ export default function About() {
       <main>
         <MyHeader/>
         <Box maxW="full" my={8}><img src="t1.jpg"/></Box>
-        <Features/>
+        <Box maxW="full" my={8}><Features/></Box>
       </main>
 
       <MyFooter/>
