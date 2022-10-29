@@ -15,7 +15,7 @@ export default function About() {
       <main>
         <MyHeader/>
         <Box maxW="full" my={8}><img src="t1.jpg"/></Box>
-        <Heading as='h1' size='xl' noOfLines={1}>
+        <Heading as='h1' size='xl'>
             404 - Page Not Found.
         </Heading>
       </main>

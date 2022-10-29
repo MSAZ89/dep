@@ -15,7 +15,7 @@ export default function Contact() {
       <main>
         <MyHeader/>
         <Box maxW="full" my={8}><img src="t1.jpg"/></Box>
-        <Heading mt={8} as='h1' size='xl' noOfLines={1}>
+        <Heading mt={8} as='h1' size='xl'>
             Contact
         </Heading>
       </main>
